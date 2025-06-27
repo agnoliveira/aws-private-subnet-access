@@ -1,0 +1,14 @@
+# Arquivos temporários e de log
+*.log
+*.tmp
+*.out
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Arquivos de editor
+.vscode/
+.idea/
+*.swp
+*.swo

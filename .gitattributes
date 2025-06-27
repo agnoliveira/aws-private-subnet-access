@@ -1,0 +1,31 @@
+# Scripts shell para Linux/macOS → sempre LF
+*.sh text eol=lf
+
+# Scripts PowerShell (Windows) → sempre CRLF
+*.ps1 text eol=crlf
+
+# Scripts batch do Windows → sempre CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Arquivos de configuração comuns → LF
+*.conf text eol=lf
+*.env text eol=lf
+
+# Documentação e texto → LF (cross-platform)
+*.md text eol=lf
+*.txt text eol=lf
+
+# JSON, YAML, etc. → LF
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Código fonte geral → LF
+*.py text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.java text eol=lf
+*.c text eol=lf
+*.cpp text eol=lf
+*.cs text eol=lf

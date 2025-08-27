@@ -132,12 +132,16 @@ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip
 unzip awscliv2.zip
 sudo ./aws/install
 ``` 
-**Instalar o Plugin do Session Manager:**
+**Instalar o Plugin do Session Manager no Linux:**
 ```ini
 curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/ubuntu_64bit/session-manager-plugin.deb" -o "session-manager-plugin.deb"
 sudo dpkg -i session-manager-plugin.deb
 ``` 
-**Para verificar se o plugin foi instalado:**
+**Instalar o Plugin do Session Manager no Windows:**
+```ini
+https://s3.amazonaws.com/session-manager-downloads/plugin/latest/windows/SessionManagerPluginSetup.exe
+``` 
+**Para verificar se o plugin foi instalado, tanto para Linux, quanto para Windows:**
 ```ini
 session-manager-plugin
 ```

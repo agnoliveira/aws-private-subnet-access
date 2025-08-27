@@ -146,13 +146,13 @@ https://s3.amazonaws.com/session-manager-downloads/plugin/latest/windows/Session
 session-manager-plugin
 ```
 
-**Para acessar a EC2 diretamente:**  
+**Para acessar a EC2 diretamente (Windows ou Linux):**  
 *Obs.: Troque o "id-da-EC2" pela sua*
 ```ini
 aws ssm start-session --target <id-da-EC2>  
 ```
 
-**Usando PortForwardingSession:** O terminal tem que ficar aberto:  
+**Usando PortForwardingSession (Windows ou Linux):** O terminal tem que ficar aberto:  
 *Poderá ser usado para acessar EC2 ou RDS, porém usa tunel SSH para chegar ao RDS (duplo tunel). Para EC2, abrir outro terminal ou o MobaXterm, para o RDS, seguir as configurações do PGAdmin abaixo ou outro software de sua preferência.*  
 
 *Troque o "id-da-EC2" e "5555"
